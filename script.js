@@ -25,7 +25,7 @@ const displayTime = () => {
         seconds.innerHTML = sec
     }
     hours.innerHTML = hrs
-    // minutes.innerHTML = mins
+    minutes.innerHTML = mins
     // seconds.innerHTML = sec
 }
 setInterval(displayTime,10) 
