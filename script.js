@@ -4,10 +4,12 @@ const minutes = document.querySelector('#minutes')
 const seconds = document.querySelector('#seconds')
 const section = document.querySelector('#section')
 
+
 const displayTime = () => {
     let hrs = new Date().getHours()
     let mins = new Date().getMinutes()
     let sec = new Date().getSeconds()
+    
 
     if (hrs >= 12){
         section.innerHTML= "PM"
